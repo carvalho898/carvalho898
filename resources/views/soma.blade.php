@@ -19,12 +19,13 @@
     <title>Document</title>
 </head>
 <body>
-Cabeçalho
-<div class = "container">
-<div class = "row mt-2">
-<div class="row mt-5">
 
+<div class = "container">
+
+<div class = "row mt-2">
+Cabeçalho
 </div>
+<div class="row mt-5">
 <h1>Calculadora</h1>
 </div>
 <div class="row">
@@ -32,22 +33,26 @@ Cabeçalho
 <form>
   <div class="mb-3">
     <label for="primeirovalor" class="form-label">Primeiro valor</label>
-    <input type="email" class="form-control" id="primeirovalor" >
+    <input type="number" class="form-control" id="primeirovalor" >
     
   </div>
-  <div class="mb-3">
+  <div class="mb-3">]
   <label for="segundovalor" class="form-label">Segundo valor</label>
-    <input type="email" class="form-control" id="segundovalor" >
+    <input type="number" class="form-control" id="segundovalor" >
    
   <div class="mb-3 form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    <label class="form-check-label" for="exampleCheck1"></label>
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
 <div class = "container">
-<div class ="row">
+</div>
+<div class ="mt-5">
 Rodapé
+
+</div>
+
 </div>
   
 
