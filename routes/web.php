@@ -20,3 +20,5 @@ Route::get('/', function () {
 Route::get('/soma', '\App\Http\Controllers\CalculadoraController@soma');
 //TUTORIAL DA ROTA: Route::get('/rota', 'controller@funcao);
 
+
+
