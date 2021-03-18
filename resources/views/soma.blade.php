@@ -36,7 +36,7 @@ Cabeçalho
     <input type="number" class="form-control" id="primeirovalor" >
     
   </div>
-  <div class="mb-3">]
+  <div class="mb-3"> 
   <label for="segundovalor" class="form-label">Segundo valor</label>
     <input type="number" class="form-control" id="segundovalor" >
    
