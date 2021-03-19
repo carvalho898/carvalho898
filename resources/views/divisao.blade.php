@@ -25,13 +25,14 @@
 <div class = "row mt-2">
   IFMA CAMPUS AVANÇADO PORTO FRANCO<br>
   FEITO POR ISAAC CIRQUEIRA CARVALHO<br>
+  
 </div>
 <div class="row mt-5">
 <h1>Calculadora</h1>
 </div>
 <div class="row">
 
-<form method="POST" action="{{ route('somar') }}">
+<form method="POST" action="{{ route('dividir') }}">
   @csrf
   <div class="mb-3">
     <label for="primeirovalor" class="form-label">Primeiro valor</label>
@@ -41,7 +42,7 @@
   <div class="mb-3"> 
   <label for="segundovalor" class="form-label">Segundo valor</label>
     <input type="number" class="form-control" name="segundovalor" >
-    <button type="submit" class="btn btn-primary">Somar</button>
+    <button type="submit" class="btn btn-primary">multiplicar</button>
   </form>
    
     

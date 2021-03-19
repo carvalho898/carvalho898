@@ -16,9 +16,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get ('/soma','\App\Http\Controllers\CalculadoraController@soma')->name('carregarSoma');
+Route::get ('/sub','\App\Http\Controllers\CalculadoraController@sub')->name('carregarSub');
+Route::get ('/multip','\App\Http\Controllers\CalculadoraController@multip')->name('carregarMultip');
+Route::get ('/divisao','\App\Http\Controllers\CalculadoraController@divisao')->name('carregarDivisao');
+Route::get ('/operacoes','\App\Http\Controllers\CalculadoraController@operacoes')->name('carregarMenu');
 
-Route::get('/soma', '\App\Http\Controllers\CalculadoraController@soma');
-//TUTORIAL DA ROTA: Route::get('/rota', 'controller@funcao);
-
-
-
+Route::post('/calcular-soma','\App\Http\Controllers\CalculadoraController@calcularSoma')->name('somar');
+Route::post('/calcular-sub','\App\Http\Controllers\CalculadoraController@calcularSub')->name('subtrair');
+Route::post('/calcular-multip','\App\Http\Controllers\CalculadoraController@calcularMultip')->name('multiplicar'); 
+Route::post('/calcular-divisao','\App\Http\Controllers\CalculadoraController@calcularDivisao')->name('dividir'); 
